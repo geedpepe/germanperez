@@ -1,0 +1,32 @@
+$color1: rgba(62, 38, 117, 0.5);
+$color2: rgba(148, 17, 17, 0.541);
+$color3: brown;  
+
+
+
+
+.jumbotron{
+    background-color: $color2;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+/* The image used */
+background-image: url(wooden.jpg) ;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     }
+
+   .imagen1{
+       background-image: url(imagenes/lija.jpg);
+       height: 200px;
+       width: 100%;
+       background-repeat: no-repeat;
+        }
