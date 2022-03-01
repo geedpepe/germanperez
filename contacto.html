@@ -5,149 +5,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TIENDA MUEBLES URUGUAY</title></a>
+    <title>Carpinteria muebles a medida</title>
+    <meta content="muebles carpinteria diseño muebles" name="description">
+    <meta content="muebles , madera , placares , diseño" name="keywords">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="contacto.css">
+    
     <style>
 
+    </style>
+
 
        
-        header{
-            height: 100px;
-            width: 100%;
-            background-color: darkslategrey;
-            text-align: center;
-        }
-        nav ul li{
-          padding-top: 30px;
-          list-style: none;  
-        display: inline-block;
-        }
-        
-        nav a{
-           text-decoration: none;
-            color: black;
-            font-size: 40px;
-            text-transform: capitalize;
-        
-            
-            }
-            nav a:hover{
-                color:white;
-            }
-        main{
-           height: 70vh;
-           width: 100%;
-           background-image: url(wooden.jpg);
-           
-        }
-        *{
-          margin: 0;
-          padding: 0;
-        }
-        
-       
-        h2 {
-          font-size: 30px;
-          font-family: verdana;
-          margin-left: 20px;
-        }
-        footer{
-          height: 30vh;
-          width: 100%;
-          background-image: url(footer.jpg);
-          background-size: cover;
-          background-position: center;
-          text-align: center;
-        }
-        footer h1{
-          font-size: 60px;
-          color: white;
-          font-family: verdana;
-        }
-        footer h2{
-        font-size: 30px;
-          color: white;
-          font-family: verdana;
-        }
-        ol{
-          margin-left: 30px;
-        }
+<body>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Tienda muebles Uruguay</h1>
+  <h2>Carpinteria familiar</h2> 
+</div>
 
-  form{
-    margin-left: 20px;
-    font-size: 20px;
-  }
-        
-        </style>
-        </head>
-        <body>
-        <header>
-        
-        <nav>
-        <ul> 
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="quienessomos.html">Quiénes sómos</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="trabajosrealizados.html">Trabajos realizados</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-        
-        
-        
-        </nav>
-        </header>
-        <main>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.html">Tienda muebles</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="quienessomos.html">Quienes somos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="servicios.html">Servicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="trabajosrealizados.html">Trabajos realizados</a>
+      </li>    
+      <li class="nav-item">
+        <a class="nav-link" href="contacto.html">Contacto</a>
+      </li> 
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+   
+    <div class="col-sm-11">
+      <h2>Formulario</h2>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Nombre completo</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Nombre_completo">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Dirección<nav></nav></label>
+          <input type="text" class="form-control" id="inputDirección<nav></nav>" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
       
+      
+    </div>
+  </div>
+</div>
 
-<h1>CONTACTO</h1>
-<h1>Wsap +99994272</h1>
-<h1>e-mail: tiendamuebles@outlook.com</h1>
-<br>
-<!-- formulario contacto -->
-<h2>Formulario contacto</h2>
-<form action="enviar.php" method="post"
-enctype="text/plain">
-<label for="nombre">nombre:
-</label>
-<input type="text" name="nombre">
-<br>
-<label for="apellido">apellido:</label>
-<input type="text" name="apellido">
-<br>
-<label for="telefono">telefono:</label>
-<input type="number">
-<br>
-<label for="email">email:</label>
-<input type="email">
-<br>
-<input type="checkbox" name="solicitante">
-<label for="Arquitecto">Arquitecto</label>
-<input type="checkbox" name="solicitante">
-<label for="Empresa constructora">Empresa constructora</label>
-<input type="checkbox" name="solicitante">
-<label for="Particular">Particular</label>
-<br>
-<label for="Comentarios">Comentarios</label>
-<br>
-<textarea name="comentarios" id="" cols="30"
-rows="10" placeholder="escribe tu comentario" required></textarea>
-<br>
-<h3>Cotización?</h3>
-<select>
-    <option>Si</option>
-    <option>No</option>
-</select>
-<br>
-<br>
-<input type="submit" value="enviar formulario">
-<input type="reset" value="limpiar formulario">
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h3>Presupuestos en 24 hs. por correo tiendamuebles@outlook.com</h3>
+</div>
 
-</form>
-        </main>
-        </body>
-        <footer>
-        <h1>tienda muebles design</h1>
-        <br>
-        <h2>tiendamuebles@outlook.com</h2>
-        </footer>
-        
-        </html>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -14,11 +14,11 @@ html,body{
 
 }
 body{
-/* The image used */
+
 background-image: url(wooden.jpg) ;
-    /* Full height */
+    
     height: 100%;
-    /* Center and scale the image nicely */
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,3 +30,20 @@ background-image: url(wooden.jpg) ;
        width: 100%;
        background-repeat: no-repeat;
         }
+
+
+@mixin container($ancho, $alto, $color) {
+  width: $ancho;
+  height: $alto;
+  background-color: $color;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+} 
+
+.box_uno{
+  @include container(cover, 100px, #33D374)
+}
+.box_dos{
+  @include container(cover, 50px, #108EFF)
+}

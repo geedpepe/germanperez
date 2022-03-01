@@ -8,11 +8,8 @@ html, body {
 }
 
 body {
-  /* The image used */
   background-image: url(wooden.jpg);
-  /* Full height */
   height: 100%;
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,5 +20,23 @@ body {
   height: 200px;
   width: 100%;
   background-repeat: no-repeat;
+}
+
+.box_uno {
+  width: cover;
+  height: 100px;
+  background-color: #33D374;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
+.box_dos {
+  width: cover;
+  height: 50px;
+  background-color: #108EFF;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
 }
 /*# sourceMappingURL=servicios.css.map */
