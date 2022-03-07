@@ -24,12 +24,7 @@ background-image: url(wooden.jpg) ;
     background-size: cover;
      }
 
-   .imagen1{
-       background-image: url(imagenes/lija.jpg);
-       height: 200px;
-       width: 100%;
-       background-repeat: no-repeat;
-        }
+  
 
 
 @mixin container($ancho, $alto, $color) {
@@ -42,7 +37,9 @@ background-image: url(wooden.jpg) ;
 } 
 
 .box_uno{
+  
   @include container(cover, 100px, #33d37300)
+  
 }
 .box_dos{
   @include container(cover, 50px, #108fff27)
