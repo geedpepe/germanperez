@@ -42,8 +42,8 @@ background-image: url(wooden.jpg) ;
 } 
 
 .box_uno{
-  @include container(cover, 100px, #33D374)
+  @include container(cover, 100px, #33d37300)
 }
 .box_dos{
-  @include container(cover, 50px, #108EFF)
+  @include container(cover, 50px, #108fff27)
 }
