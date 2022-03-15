@@ -7,23 +7,18 @@ html,body{
 
 }
 body{
-/* The image used */
+
 background-image: url(wooden.jpg) ;
-    /* Full height */
+    
     height: 100%;
-    /* Center and scale the image nicely */
+    
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
      }
 
-   .imagen1{
-       background-image: url(imagenes/lija.jpg);
-       height: 200px;
-       width: 100%;
-       background-repeat: no-repeat;
-       
+  
        
    }
 .container{

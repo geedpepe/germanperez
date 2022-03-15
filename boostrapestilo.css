@@ -8,7 +8,7 @@ html,body{
 
 }
 body{
-/* The image used */
+
 background-image: url(wooden.jpg) ;
     background-position: center;
     background-repeat: no-repeat;    
@@ -18,7 +18,7 @@ background-image: url(wooden.jpg) ;
      }
 
    .imagen1{
-       background-image: url(imagenes/lija.jpg);
+       background-image: url(imagenes/martillo.jpg);
        height: 200px;
        width: 100%;
        background-repeat: no-repeat;
