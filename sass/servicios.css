@@ -1,5 +1,5 @@
 .jumbotron {
-  background-color: rgba(148, 17, 17, 0.541);
+  background-color: rgba(47, 79, 79, 0.548);
 }
 
 html, body {
@@ -12,24 +12,12 @@ body {
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 
-.box_uno {
-  width: cover;
-  height: 100px;
-  background-color: #33d37300;
-  border-radius: 5%;
+footer {
   text-align: center;
-  margin: 5px;
-}
-
-.box_dos {
-  width: cover;
-  height: 50px;
-  background-color: #108fff27;
-  border-radius: 5%;
-  text-align: center;
-  margin: 5px;
+  height: 500px;
 }
 /*# sourceMappingURL=servicios.css.map */
