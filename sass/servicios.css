@@ -31,7 +31,7 @@ body {
 .imagen1 {
   background-image: url(../imagenes/martillo.jpg);
   height: 400px;
-  width: 200%;
+  width: auto;
   background-repeat: no-repeat;
 }
 
