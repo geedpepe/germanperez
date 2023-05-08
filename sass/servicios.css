@@ -1,6 +1,7 @@
 .jumbotron {
   background-color: rgba(47, 79, 79, 0.548);
   size-adjust: 100%;
+  max-width: 1140px;
 }
 
 .jumbotron h1 {
