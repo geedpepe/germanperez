@@ -45,24 +45,20 @@ body {
 }/*# sourceMappingURL=servicios.css.map */
 
 footer {
-  
-  bottom: 0;
+  position: absolute;
+ 
   width: 100%;
-  background-color: rgba(47, 79, 79, 0.548);
-  color: white;
-  padding: 20px;
-  text-align: center;
 }
+
+
 
 footer h2 {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: bold;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
+  
 }
 
-@media only screen and (max-width: 768px) {
-  footer h2 {
-    font-size: 24px;
-  }
+footer h2,
+footer h4 {
+  margin: 10px 0;
 }
