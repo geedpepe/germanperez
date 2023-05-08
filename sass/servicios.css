@@ -1,7 +1,6 @@
 .jumbotron {
   background-color: rgba(47, 79, 79, 0.548);
   size-adjust: 100%;
-  
 }
 
 .jumbotron h1 {
@@ -14,7 +13,6 @@
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  
 }
 
 html, body {
@@ -28,7 +26,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  
 }
 
 .imagen1 {
@@ -46,10 +43,3 @@ body {
   width: 800px;
   height: 500px;
 }/*# sourceMappingURL=servicios.css.map */
-
-.jumbotron h4 {
-  
-  font-weight: bold;
-  color: #f7f4f4;
-  
-}
