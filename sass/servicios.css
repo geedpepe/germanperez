@@ -44,21 +44,3 @@ body {
   height: 500px;
 }/*# sourceMappingURL=servicios.css.map */
 
-footer {
-  position: absolute;
- 
-  width: 100%;
-}
-
-
-
-footer h2 {
-  font-size: 36px;
-  font-weight: bold;
-  
-}
-
-footer h2,
-footer h4 {
-  margin: 10px 0;
-}
