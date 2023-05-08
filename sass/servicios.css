@@ -1,37 +1,68 @@
-$jumbotron-background-color: rgba(47, 79, 79, 0.548);
-
 .jumbotron {
-  background-color: $jumbotron-background-color;
+  background-color: rgba(47, 79, 79, 0.548);
   size-adjust: 100%;
 }
 
-html, $body {
+.jumbotron h1 {
+  font-size: 72px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px #000000;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+html, body {
   height: 100vh;
   width: 100%;
 }
 
-$body {
-  $background-image: url(../imagenes/wooden.jpg);
+body {
+  background-image: url(../imagenes/wooden.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-
-  .imagen1 {
-    background-image: url(../imagenes/martillo.jpg);
-    height: 200px;
-    width: 100%;
-    background-repeat: no-repeat;
-  }
-
-  .container {
-    align-content: center;
-  }
-
-  .carousel-inner img {
-    width: 800px;
-    height: 500px;
-  }
 }
 
+.imagen1 {
+  background-image: url(../imagenes/martillo.jpg);
+  height: 400px;
+  width: 200%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  align-content: center;
+}
+
+.carousel-inner img {
+  width: 800px;
+  height: 500px;
 }/*# sourceMappingURL=servicios.css.map */
+
+footer {
+  
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(47, 79, 79, 0.548);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer h2 {
+    font-size: 24px;
+  }
+}
