@@ -14,6 +14,7 @@
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  
 }
 
 html, body {
@@ -27,6 +28,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  
 }
 
 .imagen1 {
