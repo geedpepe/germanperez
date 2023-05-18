@@ -97,8 +97,8 @@ margin: 0 auto;
 }
 
 
-h4{
-  
+h2{
+  font-size: 25px;
   line-height: 150%;
   text-align: center;
   color:#101010;
@@ -106,7 +106,7 @@ h4{
   
 }
 
-h2{
+h1{
   
   font-size: 30px;
   text-transform: uppercase;
@@ -119,7 +119,7 @@ h2{
   outline: none;
 }
 
-h2:hover {
+h1:hover {
   font-variation-settings: "wght" 582; 
   letter-spacing: 1px;
 }
@@ -127,5 +127,15 @@ h2:hover {
 .form-group {
 font-size: 25px;
 font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+font-display:inherit;
+font-optical-sizing:auto;
 
+
+}
+
+.form-control{
+  background-color: #bfe4df;
+  font-size: large;
+  border-color: black;
 }
